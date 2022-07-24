@@ -11,6 +11,6 @@ class Cell: UITableViewCell {
     static let identifier = "Cell"
     
     func fill(with asset: FeedViewModel.Asset) {
-        textLabel?.text = "\(asset.symbol), \(asset.name ?? "no name"), \(asset.formattedPrice)"
+        textLabel?.text = "\(asset.symbol), \(asset.name), \(asset.formattedPrice)"
     }
 }

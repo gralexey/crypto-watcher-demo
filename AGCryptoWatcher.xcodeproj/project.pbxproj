@@ -13,7 +13,6 @@
 		0E62CFCC28897FBB007CDD62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E62CFCB28897FBB007CDD62 /* AppDelegate.swift */; };
 		0E62CFCE28897FBB007CDD62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E62CFCD28897FBB007CDD62 /* SceneDelegate.swift */; };
 		0E62CFD028897FBB007CDD62 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E62CFCF28897FBB007CDD62 /* FeedViewController.swift */; };
-		0E62CFD328897FBB007CDD62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E62CFD128897FBB007CDD62 /* Main.storyboard */; };
 		0E62CFD528897FBD007CDD62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E62CFD428897FBD007CDD62 /* Assets.xcassets */; };
 		0E62CFD828897FBD007CDD62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E62CFD628897FBD007CDD62 /* LaunchScreen.storyboard */; };
 		0E62CFE128897FEF007CDD62 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E62CFE028897FEF007CDD62 /* NetworkService.swift */; };
@@ -28,11 +27,10 @@
 		0E620362288D73F20053DEC3 /* AssetDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetDetailsViewController.swift; sourceTree = "<group>"; };
 		0E620365288D74BC0053DEC3 /* AssetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetViewModel.swift; sourceTree = "<group>"; };
 		0E620367288D88B00053DEC3 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
-		0E62CFC828897FBB007CDD62 /* AGCryptoWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGCryptoWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E62CFC828897FBB007CDD62 /* AGCryptoWatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGCryptoWatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E62CFCB28897FBB007CDD62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E62CFCD28897FBB007CDD62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0E62CFCF28897FBB007CDD62 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
-		0E62CFD228897FBB007CDD62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E62CFD428897FBD007CDD62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E62CFD728897FBD007CDD62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E62CFD928897FBD007CDD62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,7 +82,7 @@
 		0E62CFBF28897FBB007CDD62 = {
 			isa = PBXGroup;
 			children = (
-				0E62CFCA28897FBB007CDD62 /* AGCryptoWallet */,
+				0E62CFCA28897FBB007CDD62 /* AGCryptoWatcher */,
 				0E62CFC928897FBB007CDD62 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,12 +90,12 @@
 		0E62CFC928897FBB007CDD62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0E62CFC828897FBB007CDD62 /* AGCryptoWallet.app */,
+				0E62CFC828897FBB007CDD62 /* AGCryptoWatcher.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0E62CFCA28897FBB007CDD62 /* AGCryptoWallet */ = {
+		0E62CFCA28897FBB007CDD62 /* AGCryptoWatcher */ = {
 			isa = PBXGroup;
 			children = (
 				0E62CFE9288D64B6007CDD62 /* Cells */,
@@ -110,12 +108,11 @@
 				0E62CFE22889800E007CDD62 /* AppState.swift */,
 				0E62CFEC288D65EF007CDD62 /* Router.swift */,
 				0E62CFCD28897FBB007CDD62 /* SceneDelegate.swift */,
-				0E62CFD128897FBB007CDD62 /* Main.storyboard */,
 				0E62CFD428897FBD007CDD62 /* Assets.xcassets */,
 				0E62CFD628897FBD007CDD62 /* LaunchScreen.storyboard */,
 				0E62CFD928897FBD007CDD62 /* Info.plist */,
 			);
-			path = AGCryptoWallet;
+			path = AGCryptoWatcher;
 			sourceTree = "<group>";
 		};
 		0E62CFDF28897FD1007CDD62 /* Services */ = {
@@ -145,9 +142,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0E62CFC728897FBB007CDD62 /* AGCryptoWallet */ = {
+		0E62CFC728897FBB007CDD62 /* AGCryptoWatcher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0E62CFDC28897FBD007CDD62 /* Build configuration list for PBXNativeTarget "AGCryptoWallet" */;
+			buildConfigurationList = 0E62CFDC28897FBD007CDD62 /* Build configuration list for PBXNativeTarget "AGCryptoWatcher" */;
 			buildPhases = (
 				0E62CFC428897FBB007CDD62 /* Sources */,
 				0E62CFC528897FBB007CDD62 /* Frameworks */,
@@ -157,9 +154,9 @@
 			);
 			dependencies = (
 			);
-			name = AGCryptoWallet;
+			name = AGCryptoWatcher;
 			productName = AGCryptoWallet;
-			productReference = 0E62CFC828897FBB007CDD62 /* AGCryptoWallet.app */;
+			productReference = 0E62CFC828897FBB007CDD62 /* AGCryptoWatcher.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -177,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0E62CFC328897FBB007CDD62 /* Build configuration list for PBXProject "AGCryptoWallet" */;
+			buildConfigurationList = 0E62CFC328897FBB007CDD62 /* Build configuration list for PBXProject "AGCryptoWatcher" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -190,7 +187,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0E62CFC728897FBB007CDD62 /* AGCryptoWallet */,
+				0E62CFC728897FBB007CDD62 /* AGCryptoWatcher */,
 			);
 		};
 /* End PBXProject section */
@@ -202,7 +199,6 @@
 			files = (
 				0E62CFD828897FBD007CDD62 /* LaunchScreen.storyboard in Resources */,
 				0E62CFD528897FBD007CDD62 /* Assets.xcassets in Resources */,
-				0E62CFD328897FBB007CDD62 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,14 +227,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0E62CFD128897FBB007CDD62 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0E62CFD228897FBB007CDD62 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0E62CFD628897FBD007CDD62 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -373,10 +361,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7PXN8Z6Y8K;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AGCryptoWallet/Info.plist;
+				INFOPLIST_FILE = AGCryptoWatcher/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptoWatcher;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -384,7 +372,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gralexey.cryptowallet.AGCryptoWallet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gralexey.cryptowatcher.AGCryptoWatcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -401,10 +389,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7PXN8Z6Y8K;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AGCryptoWallet/Info.plist;
+				INFOPLIST_FILE = AGCryptoWatcher/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptoWatcher;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -412,7 +400,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gralexey.cryptowallet.AGCryptoWallet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gralexey.cryptowatcher.AGCryptoWatcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -423,7 +411,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0E62CFC328897FBB007CDD62 /* Build configuration list for PBXProject "AGCryptoWallet" */ = {
+		0E62CFC328897FBB007CDD62 /* Build configuration list for PBXProject "AGCryptoWatcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0E62CFDA28897FBD007CDD62 /* Debug */,
@@ -432,7 +420,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0E62CFDC28897FBD007CDD62 /* Build configuration list for PBXNativeTarget "AGCryptoWallet" */ = {
+		0E62CFDC28897FBD007CDD62 /* Build configuration list for PBXNativeTarget "AGCryptoWatcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0E62CFDD28897FBD007CDD62 /* Debug */,
